@@ -19,3 +19,7 @@
 .headCont a{
     color: black !important;
 }
+
+.projLink{
+    display: inline-block;
+}
