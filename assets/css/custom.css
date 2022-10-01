@@ -4,7 +4,8 @@
 
 .develop i{
     font-size: 1.5rem;
-    margin-right: .3rem;
+    /* margin-right: .3rem; */
+    padding-right: .5em;
 }
 
 #typeS {
@@ -18,4 +19,14 @@
 
 .headCont a{
     color: black !important;
+}
+
+@media screen and (min-width:1281px) {
+    #footer ul {
+        flex-direction: column;
+    }
+    #about{
+        flex-direction: column !important;
+    }
+
 }
