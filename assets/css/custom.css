@@ -21,12 +21,19 @@
     color: black !important;
 }
 
-@media screen and (min-width:1281px) {
-    #footer ul {
-        flex-direction: column;
+@media screen and (min-width:981px) {
+    #emailBtn{
+        display: none !important;
     }
-    #about{
+}
+
+@media screen and (min-width:1281px) {
+    #resumeBtn{
+        width: 100% !important;
+    }
+    #footer ul {
         flex-direction: column !important;
+        align-items: flex-start !important;
     }
 
 }

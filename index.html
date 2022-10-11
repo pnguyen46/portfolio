@@ -25,14 +25,14 @@
 						<nav class="links">
 							<ul>
 								<li><a href="#about">About</a></li>
-								<li><a href="#footer">Contact Info</a></li>
+								<li><a href="mailto:pnguye62@gmail.com">Contact Me</a></li>
 						</nav>
 						<nav class="main me-2">
 							<ul class="d-flex headCont">
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Facebook</span></a></li>
-								<li><a href="https://github.com/pnguyen46/" target="_blank" class="icon brands fa-github"><span class="label">Instagram</span></a></li>
+								<li id="emailBtn"><a href="mailto:pnguye62@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://www.linkedin.com/in/pnguyen46/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/pnguyen46/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://twitter.com/pnguyen46" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							</ul>
 						</nav>
 					</header>
@@ -100,7 +100,7 @@
 				<div class="container">
 					<div id="main">
 						<!-- Post -->
-							<article class="post">
+							<article class="post pb-5">
 								<!-- <header>
 									<div class="title">
 										<h2><a href="#">Tic-Tac-Toe</a></h2>
@@ -121,6 +121,9 @@
 										<a class="projLink" href="https://pnguyen46.github.io/connect_four_game/" target="_blank">Play</a>
 									</button>
 								</footer> -->
+								<div class="col mb-4">
+									<h2 class="h2 text-center text-sm-start">Latest Projects</h2>
+								</div>
 								<div class="col d-flex justify-content-center flex-wrap gap-5">
 									<div class="card card-compact w-96 shadow-xl">
 										<figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
@@ -191,7 +194,6 @@
 										</div>
 									</div>
 								</div>
-								
 							</article>
 						<!--/Post-->
 					</div>
@@ -213,44 +215,48 @@
 						<!-- About -->
 						<div class="container mx-auto">
 							<div class="col">
-								<section class="d-flex flex-column flex-sm-row gap-2" id="about">
+								<section class="d-flex flex-column gap-2" id="about">
 									<section class="col">
-										<h2 class="mt-2 text-center text-sm-start">About Me</h2>
-										<ul class="list-unstyled">
+										<h2 class="mt-2 h3 text-center text-sm-start ">About Me</h2>
+										<ul class="list-unstyled p-3">
 											<li>Full-Stack Web Developer from Atlanta, GA.</li>
 											<li>Passionate about learning new skills and solving problems.</li>
 										</ul>
 									</section>
 									<section id="stack" class="col mt-3">
-										<h2 class="text-center text-sm-start">Current Development Stack</h2>
+										<h2 class="text-center h3 text-sm-start">Current Development Stack</h2>
 										<ul class="d-flex list-unstyled develop">
-											<section class="col">
+											<section class="col flex flex-column gap-2 p-3">
 												<li><i class="fab fa-html5" style="color:orangered;"></i>HTML</li>
 												<li><i class="fab fa-css3-alt" style="color:blue"></i>CSS</li>
 												<li><i class="fab fa-js-square" style="color:gold;"></i>JS</li>
 											</section>
-											<section class="col">
+											<section class="col flex flex-column gap-2 p-3">
 												<li><span id="typeS">Ts</span> TypeScript</li>
 												<li><i class="fab fa-node develop" style="color:green;"></i>Node.js</li>
 												<li><i class="fab fa-react develop" style="color:skyblue;"></i>React.js</li>
 											</section>
 										</ul>
 									</section>
-									<ul class="actions align-items-center">
-										<li><a href="#" class="button">Resume</a></li>
+									<ul class="actions">
+										<li class="w-100 d-flex justify-content-center justify-content-sm-start"><a href="#" id="resumeBtn" class="button w-25">Resume</a></li>
 									</ul>
 								</section>
 							</div>
 						</div>
 
 						<!-- Footer -->
-							<footer id="footer">
-								<ul class="icons d-flex justify-content-evenly">
-									<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span><span class="ms-2">Pnguyen62@gmail.com</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Facebook</span><span class="ms-2">LinkedIn</span></a></li>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span><span class="ms-2">Twitter</span></a></li>
-									<li><a href="https://github.com/pnguyen46/" target="_blank" class="icon brands fa-github"><span class="label">Instagram</span><span class="ms-2">Github</span></a></li>
-								</ul>
+							<footer id="footer" class="container p-2">
+								<div class="row">
+									<div class="col">
+										<ul class="icons d-flex flex-column flex-sm-row text-center gap-3 justify-content-around">
+											<li><a href="mailto:pnguye62@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span><span class="ms-2">Pnguyen62@gmail.com</span></a></li>
+											<li><a href="https://www.linkedin.com/in/pnguyen46/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span><span class="ms-2">LinkedIn</span></a></li>
+											<li><a href="https://github.com/pnguyen46/" target="_blank" class="icon brands fa-github"><span class="label">Github</span><span class="ms-2">Github</span></a></li>
+											<li><a href="https://twitter.com/pnguyen46" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span><span class="ms-2">Twitter</span></a></li>
+										</ul>
+									</div>									
+								</div>
 							</footer>
 						<!-- /Footer -->
 
